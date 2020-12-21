@@ -1,0 +1,90 @@
+.sbtn-primary {
+ background-color: #E1DDD7;
+ border-width: 0px;
+ border-style: 0ch;
+ outline: none;
+ outline: 0;
+ 
+}
+.ru{
+  text-decoration: underline;
+}
+.fnt{
+  color:#9b9186;
+  font-family: Mrs Eaves OT !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+}
+.soutline-secondary{
+  background-color: #E1DDD7;
+  border-color: #E1DDD7;
+}
+html,
+body {
+    height: 100%;
+    background-color: #E1DDD7;
+    font-family: Mrs Eaves OT !important;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.jtron{
+  background-color: #E1DDD7 !important;
+}
+.spad{
+  padding: 0px !important;
+  background-color: #E1DDD7 !important;
+  border-width: thin;
+  border-top-color: #9b9186!important;
+  border-bottom-color: #9b9186 !important;
+  border-left-color: #9b9186 !important;
+  border-right-color: #9b9186 !important;
+ }
+ .im{
+  max-width: 75% !important;
+ }
+ .tf{
+  font-family: Courier !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+ }
+ .sf{
+  font-family: Mrs Eaves OT !important;
+  font-style: normal;
+  font-weight: normal;  
+ }
+ .sb{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 13px;
+  line-height: 15px;
+  background-color:#9b9186
+ }
+ .text {
+  display: block;
+  display: -webkit-box;
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  line-height: normal;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: auto;
+  white-space: nowrap;
+}
+ .text2 {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: auto;
+  white-space: normal;
+  max-width: 500px;
+  max-height: 5%;
+  height: 430px;
+  border: 1px solid #c4bcb1; 
+  flex: 1 1 auto;
+}
